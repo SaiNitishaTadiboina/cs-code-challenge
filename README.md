@@ -7,8 +7,7 @@
 ***
 
 ## Exercise 1: Consuming RESTful API data
-1. Query https://5d3607a986300e0014b63fd0.mockapi.io/your-last-name for a list of users.
-    * For example, if your last name is "Lee", your endpoint is https://5d3607a986300e0014b63fd0.mockapi.io/lee.
+1. Query https://5dc588200bbd050014fb8ae1.mockapi.io/assessment for a list of users.
 2. You may use whatever tool you like for making that request (jQuery AJAX, vanilla jqXHR, ES6 fetch API, etc). But __do not use a JS framework__; that is overkill for this exercise.
 3. Print that data to the DOM in an unordered list.
     * Use [Handlebars](https://handlebarsjs.com/) to render the data
