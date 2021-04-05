@@ -16,9 +16,6 @@
 ### Optional Enhancement 1
 1. Only show name and avatar by default; add a button that reveals the ID and created-date on click.
 
-### Optional Enhancement 2
-1. Add a button to delete users, by making a DELETE request to https://5d3607a986300e0014b63fd0.mockapi.io/your-last-name/:user-id.
-
 ***
 
 ## Exercise 2: Task Tracker Enhancement
