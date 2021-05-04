@@ -13,9 +13,11 @@
 3. Print that data to the DOM in an unordered list.
     * Use [Handlebars](https://handlebarsjs.com/) to render the data
     * Each list item must show user name, avatar, created date, and ID
+4. Write unit tests for your JS, using the framework of your choice
 
 ### Optional Enhancement 1
 1. Only show name and avatar by default; add a button that reveals the ID and created-date on click.
+2. Set up a simple Node server to deliver the app to http://localhost:3000.
 
 ***
 
@@ -28,14 +30,12 @@ Solve the problems presented in whatever way you deem most appropriate and in ke
 
     * Vanilla JS only, no jQuery or frameworks. This test is to see if you understand javascript, so no shortcuts.
     * Do not use any JS plugins. Same reason as above.
-    * You may use Sass (per the 'fixes/features' list below) but no other CSS frameworks.
-    * Use the Sass compiler of your choice.
+    * Use Sass for any styles.
 
 #### Fixes
 1. Break the contents of the HTML file into pieces that follow a logical separation of concerns for the browser.
 2. Fix any invalid HTML
 3. Fix any JS errors / inefficiencies.
-4. Convert the CSS to Sass, and fix any errors and/or inefficiencies.
 5. Utilize closures to prevent pollution of the global object with app code
 
 #### Features
