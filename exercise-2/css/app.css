@@ -1,0 +1,140 @@
+/* Basic Style */
+html body {
+  background: #ffffff;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+
+html body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+  html body .container {
+    width: 100%;
+  }
+}
+
+html body .container ul {
+  margin: 0px;
+  padding: 0 15px;
+}
+
+html body .container li,
+html body .container h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  clear: both;
+  list-style: none;
+}
+
+html body .container li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+html body .container li label, html body .container li input[type=text] {
+  font-size: 18px;
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  padding: 0 0 0 11px;
+  color: #888;
+}
+
+html body .container li .delete:hover {
+  color: #CF2323;
+}
+
+html body .container li.editMode input[type=text] {
+  display: block;
+}
+
+html body .container li.editMode label {
+  display: none;
+}
+
+html body .container li input[type=text] {
+  display: none;
+}
+
+html body .container input,
+html body .container button {
+  outline: none;
+}
+
+html body .container button {
+  background: none;
+  border: 0px;
+  color: #888888;
+  font-size: 15px;
+  width: 60px;
+  margin: auto;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+html body .container button:hover {
+  color: #009cde;
+}
+
+html body .container .new-task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body .container .new-task-input-container {
+  padding: 0 15px;
+}
+
+html body .container label[for='new-task'],
+html body .container h3 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+html body .container input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+
+html body #completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
+/*# sourceMappingURL=app.css.map */
